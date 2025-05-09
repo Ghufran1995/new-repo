@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title id="title">Job Application Form</title>
+    <meta name="description" content="Apply for a position at our company">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1>Job Application Form</h1>
+        <p>
+        تعلن المؤسسة  عن رغبتها بتعيين: 
+مدخل/ة بيانات.
+                <br />
+
+المدير المباشر: مسؤول المشروع.
+        <br />
+اخر موعد لقبول الطلبات :13 5 2025.
+        <br />
+        </p>
+    </header>
+    <main>
+        <div><img src="data entry.jpg" alt="this photo dosent exist" /></div>
+        <hr />
+        <h2>
+* المهام و المسؤوليات الرئيسية:
+        </h2>
+    <ol>
+        <li>تدقيق البيانات بعد إدخالها، والتأكد من صحتها، وقابليتها للاستخدام في الحالات، أو الوظائف المرتبطة بها. </li>
+        <li>ادخال البيانات اليومية حسب التقارير الواردة </li>
+        <li>تخزين البيانات على الدرايف، والمحافظة عليها من الضياع من أجل استرجاعها عند الحاجة لاستخدامها، أو للحصولِ على معلوماتٍ منها. </li>
+        <li>تنظيم الملفات، والوثائق من أجل سهولة تصنيفها، وتبويبها في الأقسام المخصّصة لها. </li>
+    <li>تحديث معلومات المستفيدين بشكل دوري</li>
+    <li>تعديل البيانات المُدخلة دوريًا وفقًا للتحديثات التي تطرأ على المشروع</li>        
+    </ol>
+    <hr />
+ <h2>الحد الأدنى من التعليم والمؤهلات والخبرة المطلوبة:</h2>
+
+    <ul>
+        <li>ثانوية او معهد و ما يعادلها (شهادة تقانة حاسوب مثلا)</li>
+        <li>المعرفة بأساسيات لغة تدوين البيانات </li>
+        <li>ثإجادة التعامل مع برامج Microsoft </li>
+        <li>القدرة على قيادة و تنظيم العمل.</li>
+        <li>القدرة على التعامل مع فريق العمل.</li>
+    </ul>
+    <hr />
+ <p>لمزبد من التفاصيل والتقديم يرجى تعبئة الفورم التالي:</p>
+    <form action="#" method="post">
+            <label for="Full-Name">Full Name</label>
+            <input id="Full-Name" type="text" required/>
+        <br />        <br />
+            <label for="Email">Email</label>
+            <input id="Email" type="email" required/>
+        <br />
+        <br />
+           <label for="tel">Phone Number</label>
+            <input id="tel" type="tel" required/>
+        <br />
+        <br />
+
+        <label for="LinkedIn">LinkedIn Profile</label>
+            <input id="LinkedIn" type="url" required/>
+        <br />
+        <br />
+
+           <label for="Salary">Salary Expectation</label>
+            <input id="Salary" type="number" required/>
+        <br />
+        <br />
+
+         <label for="Password"> Password</label>
+            <input id="Password" type="password" required/>
+        <br />
+        <br />
+        <label>Cover Letter</label>
+            <textarea required></textarea>    
+        <br /> 
+        <br />           
+           <lable for="skill"> Skills</lable>
+        <br />
+            <label><input type="checkbox" name="skill[]" value="excel"/>Excel</label>
+            <label><input type="checkbox" name="skill[]" value="word"/>Word</label>
+            <label><input type="checkbox" name="skill[]" value="drive"/>Drive</label>
+        <br /><br />
+          <lable for="availabil"> Availability</lable>
+        <br />  
+            <input type="radio" value="full-time" name="availabil" id="Full-time"/>Full-time<br />
+            <input type="radio" value="part-time" name="availabil" id="Part-time"/>Part-time<br />
+            <input type="radio" value="Freelance" name="availabil" id="Freelance"/>Freelance<br />
+        <br /><br />
+        <label>Location</label>
+        <select name="location">
+            <option value="Remote">Remote</option>
+            <option value="On-site">On-site</option>
+            <option value="Hybrid">Hybrid</option>
+        </select>
+        <br />
+        <br />
+            <label for="cv"> Upload Resume</label>
+            <input id="cv" type="file" required/> 
+        <br /><br />
+            <input type="hidden" name="formVersion" value="v1">
+            <input type="submit"/></div>
+
+        </form>
+    </main>
+   
+</body>
+</html>
